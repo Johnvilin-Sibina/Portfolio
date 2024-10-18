@@ -23,6 +23,7 @@ const Home = () => {
             <a
               href="https://drive.google.com/file/d/1me9utbwK_IUIasfdACGTWwFQvCOJvzfQ/view"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-outline-success resume-button"
             >
               Resume
