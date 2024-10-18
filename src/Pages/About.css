@@ -1,0 +1,57 @@
+.about-container {
+    padding: 4rem;
+}
+
+.about-title {
+    font-size: 2.9rem;
+    border: 4px ridge red;
+    padding: 5px;
+    border-radius: 15px;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.about-title:hover {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+    border: 4px ridge orange;
+    color: orange;
+    padding: 4px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.about-description {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.sub-title {
+    font-size: 2.2rem;
+    border: 3px ridge red;
+    padding: 5px;
+    border-radius: 15px;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.sub-title:hover {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    border: 3px ridge orange;
+    color: orange;
+    padding: 4px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.certification-description {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}

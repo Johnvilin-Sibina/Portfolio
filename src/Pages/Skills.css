@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.skills-container {
+    padding: 4rem;
+}
+
+.skills-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(1, 104, 104) !important;
+    color: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.skills-title {
+    color: rgb(4, 129, 143);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+}
