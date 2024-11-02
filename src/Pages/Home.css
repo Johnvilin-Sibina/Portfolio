@@ -56,3 +56,11 @@ body {
     color: black;
     background-color: aqua;
 }
+.linkedin-logo {
+    margin-top: 15px;
+    color: aqua
+}
+
+.linkedin-logo:hover {
+    color: white;
+}

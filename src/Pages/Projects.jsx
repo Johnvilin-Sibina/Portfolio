@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="projects-cards row">
         {projects.map((project, index) => {
           return (
-            <div className="card col project-card">
+            <div className="card col project-card" key={index}>
               <h3 className="text-center heading">{project.title}</h3>
               <p>
                 <b className="sub-heading">Description: </b>

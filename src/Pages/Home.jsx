@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
 
 const Home = () => {
@@ -19,6 +19,13 @@ const Home = () => {
               className="github"
             >
               <FaGithub size={45} title="GitHub" className="github-logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/johnvilin-sibina-j-5ba45425a"
+              target="_blank"
+              className="linkedin"
+            >
+              <FaLinkedin size={45} title="Linkedin" className="linkedin-logo" />
             </a>
             <a
               href="https://drive.google.com/file/d/1GyhzjzTKc3J7Nu3iy8We--5xoCUb1tRa/view?usp=drive_link"
