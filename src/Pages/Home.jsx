@@ -21,7 +21,7 @@ const Home = () => {
               <FaGithub size={45} title="GitHub" className="github-logo" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1me9utbwK_IUIasfdACGTWwFQvCOJvzfQ/view"
+              href="https://drive.google.com/file/d/1GyhzjzTKc3J7Nu3iy8We--5xoCUb1tRa/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-success resume-button"
