@@ -28,7 +28,7 @@ const Home = () => {
               <FaLinkedin size={45} title="Linkedin" className="linkedin-logo" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1GyhzjzTKc3J7Nu3iy8We--5xoCUb1tRa/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qizU5r_QwIsmt11C-UNaYUullgxgTF-r/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-success resume-button"
@@ -39,7 +39,7 @@ const Home = () => {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
           <div>
-            <img src="../developer.png" className="developer-image" />
+            <img src="../developer.png" className="developer-image" alt="Developer Image"/>
           </div>
         </div>
       </div>
