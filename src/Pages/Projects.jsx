@@ -23,6 +23,24 @@ const Projects = () => {
         "https://github.com/Johnvilin-Sibina/Role-Based-Access-Control-System-Backend",
       deployedLink: "https://beamish-buttercream-3f70ca.netlify.app/",
     },
+    {
+      title: "LootMart",
+      description:
+        "LootMart is a fully functional e-commerce website that provides a seamless online shopping experience. It features user authentication, product listings, shopping cart functionality, and a secure payment gateway powered by Stripe. The platform is designed with a modern UI and responsive layout, ensuring smooth navigation across devices. The backend efficiently handles product management, user orders, and payment processing.",
+      language: "Javascript",
+      technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "ReactJS",
+        "Stripe",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+      ],
+      frontend: "https://github.com/Johnvilin-Sibina/E-Commerce-Frontend",
+      backend: "https://github.com/Johnvilin-Sibina/E-Commerce-Backend",
+      deployedLink: "https://loot-mart.netlify.app/",
+    },
   ];
   return (
     <div className="projects-container container">
