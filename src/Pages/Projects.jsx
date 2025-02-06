@@ -45,55 +45,54 @@ const Projects = () => {
   return (
     <div className="projects-container container">
       <h1 className="text-center projects-title">My Projects</h1>
-      <div className="projects-cards row">
-        {projects.map((project, index) => {
-          return (
-            <div className="card col project-card" key={index}>
-              <h3 className="text-center heading">{project.title}</h3>
-              <p>
-                <b className="sub-heading">Description: </b>
-                {project.description}
-              </p>
-              <p>
-                <b className="sub-heading">Language Used: </b>
-                {project.language}
-              </p>
-              <p>
-                <b className="sub-heading">Technologies Used: </b>
-                {project.technologies.map((technology, index) => {
-                  return (
-                    <span key={index} className="me-3">
-                      {technology}
-                    </span>
-                  );
-                })}
-              </p>
-              <div className="d-flex justify-content-end">
-                <a
-                  href={project.frontend}
-                  target="_blank"
-                  className="btn btn-outline-info me-3"
-                >
-                  Frontend Code
-                </a>
-                <a
-                  href={project.backend}
-                  target="_blank"
-                  className="btn btn-outline-info me-3"
-                >
-                  Backend Code
-                </a>
-                <a
-                  href={project.deployedLink}
-                  target="_blank"
-                  className="btn btn-outline-info me-3"
-                >
-                  Site
-                </a>
-              </div>
+      <div className="projects-cards">
+        {projects.map((project, index) => (
+          <div className="card project-card" key={index}>
+            <h3 className="text-center heading">{project.title}</h3>
+            <p>
+              <b className="sub-heading">Description: </b>
+              {project.description}
+            </p>
+            <p>
+              <b className="sub-heading">Language Used: </b>
+              {project.language}
+            </p>
+            <p>
+              <b className="sub-heading">Technologies Used: </b>
+              {project.technologies.map((technology, idx) => (
+                <span key={idx} className="me-3">
+                  {technology}
+                </span>
+              ))}
+            </p>
+            <div className="button-group">
+              <a
+                href={project.frontend}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-info me-3"
+              >
+                Frontend Code
+              </a>
+              <a
+                href={project.backend}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-info me-3"
+              >
+                Backend Code
+              </a>
+              <a
+                href={project.deployedLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-info me-3"
+              >
+                Live Site
+              </a>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );
