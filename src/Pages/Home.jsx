@@ -28,7 +28,7 @@ const Home = () => {
               <FaLinkedin size={45} title="Linkedin" className="linkedin-logo" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1qizU5r_QwIsmt11C-UNaYUullgxgTF-r/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1WR_PPwRghJId36Ca_VSIX7n9Gsenhp3i/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-success resume-button"
