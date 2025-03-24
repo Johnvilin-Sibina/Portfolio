@@ -41,6 +41,41 @@ const Projects = () => {
       backend: "https://github.com/Johnvilin-Sibina/E-Commerce-Backend",
       deployedLink: "https://loot-mart.netlify.app/",
     },
+    {
+      title: "TaskBuddy",
+      description:
+        "TaskBuddy is a to-do app where users can register, log in, and manage their tasks effectively. Users can add, edit, and delete tasks seamlessly.",
+      language: "JavaScript",
+      technologies: [
+        "HTML",
+        "Tailwind CSS",
+        "ReactJS",
+        "NodeJS",
+        "ExpressJs",
+        "MongoDB",
+      ],
+      frontend: "https://github.com/Johnvilin-Sibina/Task-Manager-Frontend",
+      backend: "https://github.com/Johnvilin-Sibina/Task-Manager-Backend",
+      deployedLink: "https://my-task-buddy.netlify.app/",
+    },
+    {
+      title: "TastyTrove",
+      description:
+        "TastyTrove is a recipe management app where users can explore and add their favorite recipes. The application provides secure authentication, an intuitive UI, and seamless recipe management. The application uses Cloudinary for image upload.",
+      language: "Javascript",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+      ],
+      frontend: "https://github.com/Johnvilin-Sibina/Recipe-App-Frontend",
+      backend: "https://github.com/Johnvilin-Sibina/Recipe-App-Backend",
+      deployedLink: "https://tasty-trove-recipes.netlify.app/",
+    },
   ];
   return (
     <div className="projects-container container">
