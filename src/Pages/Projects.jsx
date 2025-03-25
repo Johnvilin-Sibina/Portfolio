@@ -94,9 +94,10 @@ const Projects = () => {
             </p>
             <p>
               <b className="sub-heading">Technologies Used: </b>
-              {project.technologies.map((technology, idx) => (
-                <span key={idx} className="me-3">
+              {project.technologies.map((technology, index) => (
+                <span key={index}>
                   {technology}
+                  {index !== project.technologies.length - 1 && ", "}
                 </span>
               ))}
             </p>
